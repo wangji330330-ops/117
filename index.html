@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0A0E14">
+<title>自律锁 FocusLock · 答完题才准刷抖音</title>
+<style>
+  :root{
+    --bg:#0A0E14; --surface:#141B24; --surface2:#1C2532; --stroke:#243141;
+    --text:#E8EEF7; --dim:#8A9AB0; --accent:#4ADE80; --accent-dim:#16341F;
+    --danger:#FF6B6B;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:680px;margin:0 auto;padding:40px 20px 64px}
+  .badge{
+    display:inline-block;background:var(--accent-dim);color:var(--accent);
+    font-size:12px;letter-spacing:.08em;padding:5px 12px;border-radius:99px;
+  }
+  h1{font-size:32px;margin:18px 0 10px;letter-spacing:.01em}
+  .sub{color:var(--dim);font-size:15px;margin:0 0 26px}
+  .card{
+    background:var(--surface);border:1px solid var(--stroke);
+    border-radius:20px;padding:22px;margin:16px 0;
+  }
+  .btn{
+    display:block;text-align:center;text-decoration:none;
+    background:var(--accent);color:#06210F;font-weight:700;font-size:17px;
+    padding:16px;border-radius:14px;margin:6px 0;
+  }
+  .btn:active{opacity:.85}
+  .btn.sub{
+    background:transparent;color:var(--text);border:1px solid var(--stroke);
+    font-weight:500;font-size:14px;padding:13px;
+  }
+  .meta{color:var(--dim);font-size:12px;text-align:center;margin-top:12px}
+  h2{font-size:16px;margin:0 0 4px;font-weight:600}
+  .feat{display:grid;grid-template-columns:1fr;gap:12px;margin-top:6px}
+  .feat div{color:var(--dim);font-size:14px}
+  .feat b{color:var(--text);font-weight:600}
+  ol,ul{margin:8px 0 0;padding-left:20px;color:var(--dim);font-size:14px}
+  li{margin:8px 0}
+  code{
+    background:var(--surface2);border-radius:6px;padding:2px 6px;
+    font-size:12px;color:var(--text);word-break:break-all;
+    font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  .demo{
+    background:#070A0F;border:1px solid var(--stroke);border-radius:14px;
+    padding:18px;font-size:14px;color:var(--text);
+  }
+  .demo .q{margin:10px 0}
+  .demo .blank{color:var(--accent);font-weight:700}
+  .demo .hint{color:var(--dim);font-size:12px;margin-top:12px}
+  .demo .ok{color:var(--accent);font-weight:700;margin-top:16px}
+  .demo .exp{color:var(--dim);font-size:13px;margin-top:8px}
+  a{color:var(--accent)}
+  .foot{color:#5E6B7C;font-size:12px;text-align:center;margin-top:36px;line-height:1.9}
+  .tag{display:inline-block;color:var(--dim);font-size:12px;border:1px solid var(--stroke);
+       border-radius:99px;padding:3px 10px;margin:3px 4px 0 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <span class="badge">安卓 · 400 KB · 离线可用</span>
+  <h1>自律锁 FocusLock</h1>
+  <p class="sub">打开抖音之前，先答一道针灸推拿的填空题。答对、看完解析、点「进入」——才放你进去。</p>
+
+  <div class="card">
+    <a class="btn" id="dl-main" href="https://fastly.jsdelivr.net/gh/wangji330330-ops/117@main/focuslock.apk">⬇ 下载 focuslock.apk</a>
+    <div class="meta">v1.5 · 约 400 KB · Android 8.0 及以上</div>
+    <div class="meta" style="margin-top:6px">点上面按钮没反应？换一条线路 ↓</div>
+    <a class="btn sub" href="https://gcore.jsdelivr.net/gh/wangji330330-ops/117@main/focuslock.apk">线路 2 · gcore</a>
+    <a class="btn sub" href="https://testingcf.jsdelivr.net/gh/wangji330330-ops/117@main/focuslock.apk">线路 3 · testingcf</a>
+    <a class="btn sub" href="https://gh-proxy.com/https://raw.githubusercontent.com/wangji330330-ops/117/main/focuslock.apk">线路 4 · gh-proxy</a>
+  </div>
+
+  <div class="card">
+    <h2>这是什么</h2>
+    <p style="color:var(--dim);font-size:14px;margin:8px 0 0">
+      戒手机的办法通常两种：卸载，或者靠意志力。两条都难坚持。<br><br>
+      这个工具走第三条：<b style="color:var(--text)">不拿走抖音，只在门口放一道题。</b><br>
+      你打开抖音 → 弹出一道专业课填空 → 答对、看完解析 → 才放行 5 分钟。<br>
+      题库 4150 道，20 个科目，内置在安装包里，离线可用。<br><br>
+      换句话说：<b style="color:var(--text)">每刷一次视频，先复习一个考点。</b>
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>长这样</h2>
+    <div class="demo" style="margin-top:12px">
+      <div style="color:var(--dim);font-size:12px">经络与腧穴 · 基础题</div>
+      <div class="q">内踝上8寸以下，足厥阴在前、足太阴在中、<span class="blank">______</span> 在后。</div>
+      <div style="background:var(--surface2);border-radius:10px;padding:10px 12px;color:var(--dim);margin-top:10px">空1 · 在这里填写答案</div>
+      <div class="hint">今日还可答错 2 次 · 每次答错扣 5 分钟</div>
+      <div class="ok">答对了</div>
+      <div class="exp"><b style="color:var(--text)">答案：足少阴</b><br>
+      解析：内踝上8寸是足厥阴与足太阴交叉处，交叉前后两经前后位置互换。</div>
+      <div class="hint" style="margin-top:14px;text-align:center">［ 看完了，进入应用 ］</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>功能</h2>
+    <div class="feat">
+      <div><b>填空闸门</b>　打开被锁应用就弹题，1～2 个空，输入答案才判</div>
+      <div><b>分类与科目</b>　基础 / 重点 / 难点 / 真题模拟，20 个科目可选，默认随机</div>
+      <div><b>限时放行</b>　答对后 3～60 分钟，到点重新出题</div>
+      <div><b>3 次机会</b>　每答错一次从今日额度扣 5 分钟，用完当次进不去</div>
+      <div><b>解析 + 确认</b>　答对先给答案和解析，点「进入」才放行</div>
+      <div><b>错题追着走</b>　3 次没答对的题会记住，下次先补这一道</div>
+      <div><b>每日额度</b>　15～120 分钟，用完当天只能退到桌面</div>
+      <div><b>刷题模式</b>　不拦应用，单纯把题库当练习刷</div>
+      <div><b>检查更新</b>　应用内一键更新，自动选线路下载</div>
+      <div><b>防卸载</b>　设备管理器授权，卸载前要先去设置取消</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>装好之后（三步）</h2>
+    <ol>
+      <li><b style="color:var(--text)">开启无障碍服务</b>：设置 → 无障碍 → 自律锁 → 打开。<br>
+        Android 13 以上如果开关是灰的：设置 → 应用 → 自律锁 → 右上角 ⋮ → 允许受限制的设置。</li>
+      <li><b style="color:var(--text)">给「显示在其他应用上层 / 后台弹出界面」权限</b>：没有这个，答题页盖不到抖音上面。</li>
+      <li><b style="color:var(--text)">确认锁定的应用</b>：首次启动会自动勾选抖音，要加别的去「管理应用」里勾。</li>
+    </ol>
+    <p class="meta" style="text-align:left;margin-top:16px">
+      国产系统建议再把自律锁设成「允许后台运行 / 自启动」，否则无障碍服务会被系统清理。发现突然不拦了，回来重新打开一次即可。
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>常见问题</h2>
+    <ol>
+      <li><b style="color:var(--text)">会不会偷看我的屏幕？</b><br>
+        不会。无障碍服务只读取当前窗口所属的<b>应用包名</b>，用来判断你在用哪个应用。不读界面文字、不记录输入、不上传任何数据。题库和设置全部存在本机。</li>
+      <li><b style="color:var(--text)">答错真的扣时间吗？</b><br>
+        扣的是「今日已用额度」。如果把每日额度设成「不限」，扣时只记录、不封顶。</li>
+      <li><b style="color:var(--text)">能多锁几个应用吗？</b><br>
+        可以，管理应用里随便勾。规则是全局统一的。</li>
+      <li><b style="color:var(--text)">装了发现不拦了？</b><br>
+        多半是无障碍服务被系统杀了，回应用里重新打开一次。</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>已知限制</h2>
+    <p style="color:var(--dim);font-size:14px;margin:8px 0 0">
+      不是系统级工具：强杀进程、关掉无障碍都能绕过。它拦的是「顺手」，拦不住「铁了心」。<br>
+      只按前台应用判断，分屏 / 小窗 / 画中画可能识别不到。
+    </p>
+  </div>
+
+  <p class="foot">
+    <span class="tag">Android</span><span class="tag">离线题库</span><span class="tag">无账号</span><span class="tag">不联网上传</span><br><br>
+    源码与更新放在 GitHub：<a href="https://github.com/wangji330330-ops/117">wangji330330-ops/117</a><br>
+    本页可离线无关地直接打开，安装包由 jsDelivr 加速分发。
+  </p>
+
+</div>
+</body>
+</html>

@@ -69,7 +69,18 @@ https://cdn.jsdelivr.net/gh/wangji330330-ops/117@main/
 
 首次更新需要允许「自律锁 → 安装未知应用」，应用会自动跳到那个设置页。
 
-**发布新版本的做法**：把 `update.json` 里的 `versionCode` 加 1、`versionName` 改成新版本号、`size`/`sha256` 换成新包的，再把 `focuslock.apk` 替换掉即可。
+**发布新版本的做法**：
+
+1. 新包**换个文件名**，带上版本号，例如 `focuslock-1.6.apk`（镜像会按 URL 缓存几分钟，换名能保证拿到新包，别原地覆盖同名文件）
+2. 更新 `update.json`：
+   - `versionCode` +1（App 靠它判断新旧）
+   - `versionName` 改成新版本号
+   - `apk` 改成新文件名
+   - `size`、`sha256` 换成新包的实际值
+   - `notes` 写更新说明
+3. 把两个文件一起提交
+
+App 会依次读取镜像，命中哪个就用哪个下载，所以国内网络也能更新。
 
 ---
 

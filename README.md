@@ -8,13 +8,22 @@
 
 ## 下载
 
-**[⬇ 下载 focuslock.apk](https://github.com/wangji330330-ops/117/raw/main/focuslock.apk)** · 约 400 KB · Android 8.0 及以上 · 点一下直接开始下载
+### 🌐 网页版（国内不用梯子）
+
+**https://wangji330330-ops.github.io/117/**
+
+打开就能看到功能说明，点一下直接下载安装包。
+
+### 直接下载
+
+**[⬇ focuslock.apk](https://wangji330330-ops.github.io/117/focuslock.apk)** · 约 400 KB · Android 8.0 及以上
 
 国内直连 GitHub 慢的话，用镜像（实测可用）：
 
 | 镜像 | 链接 |
 | --- | --- |
 | gh-proxy | `https://gh-proxy.com/https://raw.githubusercontent.com/wangji330330-ops/117/main/focuslock.apk` |
+| Pages | `https://wangji330330-ops.github.io/117/focuslock.apk` |
 | ghproxy | `https://ghproxy.net/https://raw.githubusercontent.com/wangji330330-ops/117/main/focuslock.apk` |
 
 > APK 是自签名的，**升级请覆盖安装，不要先卸载**，否则题库筛选和错题记录会丢。

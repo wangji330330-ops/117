@@ -3,7 +3,7 @@
   "versionName": "1.5",
   "apk": "focuslock.apk",
   "size": 411325,
-  "sha256": "0c8b83bf7cc70206344baf5b9af4413a0ad9e5cce48b11a193f6fe8b8cb59917",
+  "sha256": "3fda6cd5ee88030818dd8f0413733608559ab330f632c5e8f4f5712dcc7866de",
   "publishedAt": "2026-11-17",
   "notes": "v1.5：新增「检查更新」，以后装新版不用重新配置。\n修复点「退出到桌面」后答题页反复弹出的问题。\n题库仍为 4150 道针灸推拿填空。"
 }

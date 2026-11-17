@@ -8,7 +8,7 @@
 
 ## 下载
 
-**[⬇ focuslock.apk](focuslock.apk)** · 约 400 KB · Android 8.0 及以上
+**[⬇ 下载 focuslock.apk](https://github.com/wangji330330-ops/117/raw/main/focuslock.apk)** · 约 400 KB · Android 8.0 及以上 · 点一下直接开始下载
 
 国内直连 GitHub 慢的话，用镜像（实测可用）：
 

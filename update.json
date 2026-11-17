@@ -1,9 +1,9 @@
 {
-  "versionCode": 6,
-  "versionName": "1.5",
+  "versionCode": 7,
+  "versionName": "1.6",
   "apk": "focuslock.apk",
   "size": 411325,
-  "sha256": "3fda6cd5ee88030818dd8f0413733608559ab330f632c5e8f4f5712dcc7866de",
-  "publishedAt": "2026-11-17",
-  "notes": "v1.5：新增「检查更新」，以后装新版不用重新配置。\n修复点「退出到桌面」后答题页反复弹出的问题。\n题库仍为 4150 道针灸推拿填空。"
+  "sha256": "6b8f75aa74d75d3b9861bd554a36ff9ea10e8e127af0559bb40d68a8d02e460c",
+  "publishedAt": "2026-11-18",
+  "notes": "v1.6：更新线路优先走 GitHub Pages（不用梯子也能检查更新）。\n新增网页版介绍页：https://wangji330330-ops.github.io/117/\n题库仍为 4150 道针灸推拿填空。"
 }

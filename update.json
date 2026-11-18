@@ -1,9 +1,9 @@
 {
-  "versionCode": 7,
-  "versionName": "1.6",
+  "versionCode": 8,
+  "versionName": "2.0",
   "apk": "focuslock.apk",
-  "size": 411325,
-  "sha256": "6b8f75aa74d75d3b9861bd554a36ff9ea10e8e127af0559bb40d68a8d02e460c",
-  "publishedAt": "2026-11-18",
-  "notes": "v1.6：更新线路优先走 GitHub Pages（不用梯子也能检查更新）。\n新增网页版介绍页：https://wangji330330-ops.github.io/117/\n题库仍为 4150 道针灸推拿填空。"
+  "size": 419596,
+  "sha256": "350e435c6caccff3c773e685b52aef61616712358f796b78d6940971e37b9232",
+  "publishedAt": "2026-11-19",
+  "notes": "v2.0：守护不再是随手能关的开关。\n开启守护要先答对 10 道题（分类/科目自己挑，答错不计入，看完解析继续）。\n关闭守护前先给一次提醒，摆出今天的成绩，再答对 2 道才生效。\n其余功能不变：4150 题题库、错题补答、每日额度、刷题模式。"
 }

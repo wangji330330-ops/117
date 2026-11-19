@@ -1,9 +1,9 @@
 {
-  "versionCode": 17,
-  "versionName": "2.9",
+  "versionCode": 18,
+  "versionName": "3.0",
   "apk": "focuslock.apk",
   "size": 428014,
-  "sha256": "c0d596a2eb22573c5eb888d19549cc9cfeb1c1e0cde20bbc782fed15f8ac7b42",
+  "sha256": "b01b79d65ffd8083fe50194bc90831f8f899f8f338367c2de55fd187a07adb99",
   "publishedAt": "2026-11-20",
-  "notes": "v2.9：第二次答错跳浏览器时，搜索词改成题干原文。\n不再拼科目名，题干里的下划线空位保留。"
+  "notes": "v3.0：第二次答错改用系统「网页搜索」动作，由你手机默认的浏览器和自己设置的搜索引擎处理，不再写死百度。\n题干不再截断，多长就搜多长；下划线空位保留。"
 }

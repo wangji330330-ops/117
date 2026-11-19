@@ -1,9 +1,9 @@
 {
-  "versionCode": 16,
-  "versionName": "2.8",
+  "versionCode": 17,
+  "versionName": "2.9",
   "apk": "focuslock.apk",
   "size": 428014,
-  "sha256": "746303c2bfbd9c7dca150a1a64a28f0b028664479fa05dc5ce2ba0ca7ea33af3",
+  "sha256": "c0d596a2eb22573c5eb888d19549cc9cfeb1c1e0cde20bbc782fed15f8ac7b42",
   "publishedAt": "2026-11-20",
-  "notes": "v2.8：第一次答错的弹窗改成「特大号笑哭表情 + 大错特错！！！」，不再是一长串文字。\n表情用系统 emoji，你手机上什么样就是什么样。\n第二次答错跳浏览器、第三次扣 5 分钟保持不变。"
+  "notes": "v2.9：第二次答错跳浏览器时，搜索词改成题干原文。\n不再拼科目名，题干里的下划线空位保留。"
 }

@@ -1,9 +1,9 @@
 {
-  "versionCode": 18,
-  "versionName": "3.0",
+  "versionCode": 19,
+  "versionName": "3.1",
   "apk": "focuslock.apk",
   "size": 428014,
-  "sha256": "b01b79d65ffd8083fe50194bc90831f8f899f8f338367c2de55fd187a07adb99",
+  "sha256": "7cd6c0be181a69f406db5be52d6bdb6b0bf3ee3cd603c152b59ffdfd1628b1cc",
   "publishedAt": "2026-11-20",
-  "notes": "v3.0：第二次答错改用系统「网页搜索」动作，由你手机默认的浏览器和自己设置的搜索引擎处理，不再写死百度。\n题干不再截断，多长就搜多长；下划线空位保留。"
+  "notes": "v3.1：设置里新增「答错自动跳浏览器」开关，默认开。\n开着：第 2 次答错直接跳浏览器搜题。\n关掉：第 2 次答错会先问「要不要外援？」，选不需要就留在原地继续答。"
 }
